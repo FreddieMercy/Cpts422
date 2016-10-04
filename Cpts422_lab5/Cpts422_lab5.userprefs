@@ -1,0 +1,28 @@
+﻿<Properties StartupItem="Cpts422_lab5/Cpts422_lab5.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CS422/CS422.cs">
+    <Files>
+      <File FileName="Cpts422_lab5/Program.cs" Line="18" Column="101" />
+      <File FileName="CS422/CS422.cs" Line="63" Column="22" />
+      <File FileName="Testing/Test.cs" Line="68" Column="79" />
+      <File FileName="CS422/TestClasses.cs" Line="35" Column="3" />
+    </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.NUnit.TestPad">
+        <State name="__root__">
+          <Node name="Cpts422_lab5" expanded="True">
+            <Node name="Testing" expanded="True" selected="True">
+              <Node name="Testing" expanded="True">
+                <Node name="Test" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

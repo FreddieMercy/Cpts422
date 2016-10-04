@@ -1,0 +1,15 @@
+﻿<Properties StartupItem="CS422/CS422.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CS422/CS422.cs">
+    <Files>
+      <File FileName="CS422/Program.cs" Line="1" Column="1" />
+      <File FileName="CS422/CS422.cs" Line="38" Column="4" />
+      <File FileName="Testing/TextWriterTest.cs" Line="1" Column="1" />
+      <File FileName="Testing/StreamTest.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

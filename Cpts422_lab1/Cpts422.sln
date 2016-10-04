@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testing", "Testing\Testing.csproj", "{23D51621-F74C-42DF-A295-5A33F0E0F20A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS422", "CS422\CS422.csproj", "{11A3A597-7F1E-43F2-8022-FFD1FEF6D64A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11A3A597-7F1E-43F2-8022-FFD1FEF6D64A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11A3A597-7F1E-43F2-8022-FFD1FEF6D64A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11A3A597-7F1E-43F2-8022-FFD1FEF6D64A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11A3A597-7F1E-43F2-8022-FFD1FEF6D64A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23D51621-F74C-42DF-A295-5A33F0E0F20A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23D51621-F74C-42DF-A295-5A33F0E0F20A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23D51621-F74C-42DF-A295-5A33F0E0F20A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23D51621-F74C-42DF-A295-5A33F0E0F20A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
