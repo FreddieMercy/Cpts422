@@ -1,0 +1,10 @@
+/home/junhao/Mono/Cpts422_Assignments/Cpts422_lab3/CS422/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/junhao/Mono/Cpts422_Assignments/Cpts422_lab3/CS422/bin/Debug/CS422.dll.mdb
+/home/junhao/Mono/Cpts422_Assignments/Cpts422_lab3/CS422/bin/Debug/CS422.dll
+/home/junhao/Mono/Cpts422_Assignments/Cpts422_lab3/CS422/obj/Debug/CS422.dll
+/home/junhao/Mono/Cpts422_Assignments/Cpts422_lab3/CS422/obj/Debug/CS422.dll.mdb
+/home/junhao/Mono/Cpts422_Assignments/Cpts422_lab6/CS422/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/junhao/Mono/Cpts422_Assignments/Cpts422_lab6/CS422/obj/Debug/CS422.dll
+/home/junhao/Mono/Cpts422_Assignments/Cpts422_lab6/CS422/obj/Debug/CS422.dll.mdb
+/home/junhao/Mono/Cpts422_Assignments/Cpts422_lab6/CS422/bin/Debug/CS422.dll.mdb
+/home/junhao/Mono/Cpts422_Assignments/Cpts422_lab6/CS422/bin/Debug/CS422.dll

@@ -1,0 +1,80 @@
+{% extends "index.html" %}
+{% load staticfiles %}
+
+{% block google %} <link href='http://fonts.googleapis.com/css?family=Lobster&subset=cyrillic,latin' rel='stylesheet' type='text/css'> {% endblock %} 
+
+{% block head %}
+   		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href=" {% static 'myWeb/mystyle.css' %} ">      
+		<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+	   	<script type="text/javascript" src=" {% static 'myWeb/jnfklwnfjpsadokhiusdgksiarisaoiDJIUHFPOJOISJFOIJOASjdio/articles.js' %} "></script> 
+{% endblock %}
+    
+{% block body %}
+    <body>
+    <header>
+
+		<div id="sidebar1" align="center">
+
+		  		<nav>
+			    		<ul>
+				      		<li><a href="#Home">Home</a></li>
+				      		<li><a href="#About">About</a></li>
+				      		<li><a href="#Photo Gallary">Photo Gallary</a></li>
+				      		<li><a href="#Video Gallary">Video Gallary</a></li>
+					    	<li><a href="#Music I Like">Music I Like</a></li>
+				      		<li><a href="#Leave Comments" id="LC">Leave Comments</a></li>
+					    	<li><a href="#Contact me">Contact me</a></li>
+			    		</ul>
+		    	</nav>
+		 </div>
+	</header>
+
+	<div id="container">
+		<video id="homeVideo" loop autoplay muted style="width:100%;position:fixed;background-size:cover;z-index:-1" >
+			<source style="z-index:-1" src="/static/myWeb/img/video/myVideo.MP4" type="video/mp4">
+			<source style="z-index:-1" src="/static/myWeb/img/video/myVideo.webm" type="video/webm">
+		</video>
+			<article id="article" class="HomeStyle" align="center">
+				<div style="z-index:0; background:none">
+					<img src="/static/myWeb/img/imgH.jpeg">
+					<p>"It is a test of Home!!"</p>
+				</div>
+			</article>
+	</div>
+
+	   <div id="About" class="_content contains" style="width:100%">
+		<div><article id="article">Test of About</article></div>
+	    </div> 
+
+	   <div id="Photo">
+		{% include 'articles/Photo.html' %}
+	    </div> 
+	   <div id="Video">
+		{% include 'articles/Video.html' %}
+	    </div>
+	   <div id="Music">
+		{% include 'articles/Music.html' %}
+
+	    </div> 
+	   <div id="Comments">
+		{% include 'articles/Comments.html' %}
+	    </div> 
+	   <div id="Contact">
+		{% include "articles/Contact.html" %}
+	    </div> 
+
+    <div id="Footer" align="center" style="position:fixed;bottom:0px; width:100%">
+	<div class="musicBar" align="center">
+	<iframe src="https://embed.spotify.com/?uri=spotify%3Auser%3A12141381269%3Aplaylist%3A0lLHgTLf0wwJA8kPzx3mdI" width="99%" height="90" style="overflow:hide" frameborder="0" allowtransparency="true"></iframe>
+	
+	</div>
+    <div class="footerUp">
+	<footer>
+	    <p>&copy;{{ year }} Junhao "Freddie" Zhang, all the rights reserved</p>
+	</footer>
+    </div>
+	</div>
+	</body>
+
+{% endblock %}

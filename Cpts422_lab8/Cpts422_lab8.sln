@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS422", "CS422\CS422.csproj", "{0399EC38-0E0E-439F-8785-19BA0716403A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cpts422_lab8", "Cpts422_lab8\Cpts422_lab8.csproj", "{9BDAA0F7-C412-448E-8BD2-7F5963212D08}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0399EC38-0E0E-439F-8785-19BA0716403A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0399EC38-0E0E-439F-8785-19BA0716403A}.Debug|x86.Build.0 = Debug|Any CPU
+		{0399EC38-0E0E-439F-8785-19BA0716403A}.Release|x86.ActiveCfg = Release|Any CPU
+		{0399EC38-0E0E-439F-8785-19BA0716403A}.Release|x86.Build.0 = Release|Any CPU
+		{9BDAA0F7-C412-448E-8BD2-7F5963212D08}.Debug|x86.ActiveCfg = Debug|x86
+		{9BDAA0F7-C412-448E-8BD2-7F5963212D08}.Debug|x86.Build.0 = Debug|x86
+		{9BDAA0F7-C412-448E-8BD2-7F5963212D08}.Release|x86.ActiveCfg = Release|x86
+		{9BDAA0F7-C412-448E-8BD2-7F5963212D08}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal

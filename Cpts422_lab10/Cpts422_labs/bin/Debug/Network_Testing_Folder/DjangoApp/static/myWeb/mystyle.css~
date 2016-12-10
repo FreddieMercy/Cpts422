@@ -1,0 +1,167 @@
+@charset "UTF-8";
+
+body {
+		font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+		width: 100%; 
+		margin: 0;
+		padding: 0;
+		color: #000;
+		display:block;
+		background-position:top;
+		background-image:url(/static/myWeb/img/1.jpeg);
+		background-repeat:no-repeat;
+		background-size:cover;
+	}
+	
+
+
+#sidebar1{
+	background:#2A2A2A;
+}
+
+#sidebar1 ul{
+	padding: 10px 0px 10px 0px;
+	margin: 0;
+}
+
+#sidebar1 nav ul li {
+	display: inline;
+	
+}
+
+#sidebar1 nav ul li a{
+	
+	font-family: 'Lobster', cursive;
+	color:#FFF;
+	font-size:24px;
+	text-decoration:none;
+	padding: 0px 10px 0px 10px;
+}
+
+	
+#container{
+		width:100%;
+		height:100%;
+		position:fixed;
+}
+.contains{
+		position:relative;
+		height:auto;
+		padding-top:53px;
+		padding-bottom: 115px;
+}
+
+.spotifySideBar{
+	width:250px;
+	overflow-y: scroll;
+	position:fixed;
+	top:53px;
+	float:left;
+	bottom: 115px;
+	text-align:center;
+}
+.spotifySideBar nav ul{
+
+	margin:0;
+	padding:0;
+/*	padding:0px 10px, 0px, 10px;*/
+
+}
+.spotifySideBar nav ul li {
+	display: block;
+	background-color:#3f3939;
+	padding: 20px 0px 20px 0px;
+}
+
+.spotifySideBar nav ul li a{
+	
+	/*font-family: 'Lobster', cursive;*/
+	color:#FFF;
+	font-size:24px;
+	text-decoration:none;
+    	font-weight: bold;
+	/*padding: 10px 0px 10px 0px;*/
+}
+
+.spotifyContainer{
+
+	float:right;
+	/*padding-left: 260px;*/ 
+	z-index:-1;
+
+}
+
+.spotifySideBar nav ul .spotify_selected{
+
+	background-color:#eb5d25;
+
+}
+.spotifySideBar nav ul .spotify_selected a{
+
+	color:#000;
+
+}
+header {
+	width:100%;
+	position:fixed;
+	top:0px;
+	z-index:1;
+}
+
+
+nav ul{
+	list-style:none;
+}
+
+article{
+	
+}
+
+#article{
+	text-align:center;
+	padding:0px 50px 50px 50px;
+}
+
+#article div{
+	display:block;
+}
+
+#article ul{
+	padding: 40px 40px 40px 40px;
+}
+
+
+footer {
+		padding:5px 0px 5px 0px;
+		background:#2A2A2A;
+		color:#FFF;
+		text-align:center;
+		clear: both; 
+}
+
+.footerUp footer { max-height: 0; }
+
+.footerUp:hover footer { max-height: 100px; transition: max-height 0.2s linear;}
+
+.HomeStyle{
+	position:relative;
+	top:35%;
+	
+	}
+	
+.musicBar{
+	background:#2A2A2A;
+	/*border-bottom:#000000 solid;*/
+	padding:0;
+	margin:0;
+	padding:5px 0px 5px 0px;
+}
+	
+
+header, section, footer, aside, figure {
+	display: block;
+}
+</style>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]
+

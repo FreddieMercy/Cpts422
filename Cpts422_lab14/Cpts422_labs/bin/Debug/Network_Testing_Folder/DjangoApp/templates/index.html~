@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		{% block google %} {% endblock %}
+		{% block head %}
+		{% endblock %}
+		<title> {% block title %}-Freddie's Personal Website {% endblock %} </title>
+  	</head>
+	{% block body %}
+	{% endblock %}
+
+</html>
+

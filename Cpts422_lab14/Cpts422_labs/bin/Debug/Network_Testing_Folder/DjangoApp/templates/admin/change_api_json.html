@@ -1,0 +1,59 @@
+{% extends "admin/base_site.html" %}
+{% load i18n admin_urls %}
+
+{% block bodyclass %}{{ block.super }} app-{{ opts.app_label }} model-{{ opts.model_name }} change-confirmation{% endblock %}
+
+{% block breadcrumbs %}
+<div class="breadcrumbs">
+<a href="{% url 'admin:index' %}">{% trans 'Home' %}</a>
+&rsaquo; <a href="{% url 'admin:app_list' app_label=opts.app_label %}">{{ opts.app_config.verbose_name }}</a>
+&rsaquo; <a href="{% url opts|admin_urlname:'changelist' %}">{{ opts.verbose_name_plural|capfirst|escape }}</a>
+
+&rsaquo; {% trans 'Change Json of' %}
+</div>
+{% endblock %}
+
+{% block content %}
+{% if perms_lacking or protected %}
+    {% if perms_lacking %}
+        <p>{% blocktrans %}Changing the selected {{ objects_name }} would result in Changing related objects, but your account doesn't have permission to change the following types of objects:{% endblocktrans %}</p>
+        <ul>
+        {% for obj in perms_lacking %}
+            <li>{{ obj }}</li>
+        {% endfor %}
+        </ul>
+    {% endif %}
+    {% if protected %}
+        <p>{% blocktrans %}Changing the selected {{ objects_name }} would require Changing the following protected related objects:{% endblocktrans %}</p>
+        <ul>
+        {% for obj in protected %}
+            <li>{{ obj }}</li>
+        {% endfor %}
+        </ul>
+    {% endif %}
+{% else %}
+    <p>{% blocktrans %}Are you sure you want to change the selected {{ objects_name }}? All of the following objects and their related items will be changed:{% endblocktrans %}</p>
+    {% for changeable_object in changeable_objects %}
+        <ul>{{ changeable_object|unordered_list }}</ul>
+    {% endfor %}
+ 
+
+    
+
+    <form action="" method="post">{% csrf_token %}
+    <div>
+    <input type="hidden" name="post" value="yes" />
+    {% for obj in queryset %}
+    <input type="hidden" name="{{ action_checkbox_name }}" value="{{ obj.pk }}" />
+    <div style="padding:10px 10px 10px 10px" align=center><b>OAuth of {{ obj.api_text }} : </b><input style="padding:10px 10px 10px 10px;width:50%" type='text' name="{{ obj.api_text }}" maxlength='200'></div><br />
+    {% endfor %}
+    <input type="hidden" name="action" value="changeAll" />
+    <input type="hidden" name="post" value="yes" />
+    <div align=center>    
+    <input type="submit" value="{% trans "Yes, I'm sure" %}" />
+    <a href="#" onclick="window.history.back(); return false;" class="button cancel-link">{% trans "No, take me back" %}</a></div>
+    </div>
+    </form>
+{% endif %}
+{% endblock %}
+

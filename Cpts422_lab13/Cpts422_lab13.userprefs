@@ -1,0 +1,23 @@
+﻿<Properties StartupItem="Cpts422_labs/Cpts422_labs.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CS422/lab7/validationMethodsandFields.cs">
+    <Files>
+      <File FileName="CS422/lab9/FilesWebService.cs" Line="10" Column="37" />
+      <File FileName="CS422/lab7/WebRequest.cs" Line="1" Column="1" />
+      <File FileName="CS422/lab7/validationMethodsandFields.cs" Line="95" Column="8" />
+      <File FileName="CS422/lab7/ConcatStream.cs" Line="1" Column="1" />
+      <File FileName="Cpts422_labs/Program.cs" Line="1" Column="1" />
+      <File FileName="CS422/lab7/WebServer.cs" Line="1" Column="1" />
+      <File FileName="CS422/lab8/StandardFileSystem.cs" Line="1" Column="1" />
+      <File FileName="CS422/lab8/StdFSDir.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/home/junhao/Mono/Cpts422_Assignments/Cpts422_lab13/CS422/lab7/WebServer.cs" line="147" column="1" />
+      <Breakpoint file="/home/junhao/Mono/Cpts422_Assignments/Cpts422_lab13/CS422/lab9/FilesWebService.cs" line="384" column="1" />
+      <Breakpoint file="/home/junhao/Mono/Cpts422_Assignments/Cpts422_lab13/CS422/lab7/WebServer.cs" line="78" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

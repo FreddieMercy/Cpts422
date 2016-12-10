@@ -15,7 +15,7 @@ namespace Cpts422_lab3
 		
 		public static void Main (string[] args)
 		{
-			WebServer.Start(5050, DefaultTemplate);
+			WebServer.Start(5000, DefaultTemplate);
 		}
 	}
 }

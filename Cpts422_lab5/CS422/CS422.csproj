@@ -32,8 +32,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="CS422.cs" />
-    <Compile Include="TestClasses.cs" />
+    <Compile Include="ConcatStream.cs" />
+    <Compile Include="NoSeekMemoryStream.cs" />
+    <Compile Include="secondHelper.cs" />
+    <Compile Include="TestStreams.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

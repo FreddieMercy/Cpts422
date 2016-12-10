@@ -62,7 +62,7 @@ namespace CS422
 
 					sw = new StreamWriter(client.GetStream());
 					sr = new StreamReader(client.GetStream());
-
+					//NetworkStream t = client.GetStream ();
 					string s = "";
 					char c;
 

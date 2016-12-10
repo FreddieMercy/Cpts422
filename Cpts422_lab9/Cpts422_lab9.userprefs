@@ -1,0 +1,17 @@
+﻿<Properties StartupItem="Cpts422_labs/Cpts422_labs.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CS422/lab7/validationMethodsandFields.cs">
+    <Files>
+      <File FileName="CS422/lab7/validationMethodsandFields.cs" Line="71" Column="1" />
+      <File FileName="CS422/lab9/FilesWebService.cs" Line="1" Column="1" />
+      <File FileName="CS422/lab7/WebRequest.cs" Line="1" Column="1" />
+      <File FileName="Cpts422_labs/Program.cs" Line="22" Column="27" />
+      <File FileName="CS422/lab7/WebService.cs" Line="1" Column="1" />
+      <File FileName="CS422/lab7/WebServer.cs" Line="106" Column="9" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
